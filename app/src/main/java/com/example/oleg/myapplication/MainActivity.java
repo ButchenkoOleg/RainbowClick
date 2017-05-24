@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btnRed: linearLayout.setBackgroundColor(Color.RED);break;
             case R.id.btnBlack: linearLayout.setBackgroundColor(Color.BLACK);break;
             case R.id.btnGreen: linearLayout.setBackgroundColor(Color.GREEN);break;
+            case R.id.btnGray: linearLayout.setBackgroundColor(Color.GRAY);break;
+            case R.id.btnYellow: linearLayout.setBackgroundColor(Color.YELLOW);break;
+            case R.id.btnBlue: linearLayout.setBackgroundColor(Color.BLUE);break;
+            case R.id.btnWhite: linearLayout.setBackgroundColor(Color.WHITE);break;
         }
 
     }
