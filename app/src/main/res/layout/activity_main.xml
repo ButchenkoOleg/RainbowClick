@@ -60,5 +60,12 @@
             android:layout_height="wrap_content"
             android:onClick="clickBtn"
             android:text="White" />
+
+        <TextView
+            android:id="@+id/textCounter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>
