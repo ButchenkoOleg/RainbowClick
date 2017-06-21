@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
                 .setTitle("Closing Activity")
                 .setMessage("Are you sure you wont close app?")
                 .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         finish();
